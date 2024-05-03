@@ -143,7 +143,3 @@ class ctk(customtkinter.CTk):
         self.reading = False
         if self.inform.cget('text') == "it's reading now":
             self.inform.configure(text='')
-
-
-run = ctk()
-run.mainloop()
